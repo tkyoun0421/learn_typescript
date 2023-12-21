@@ -1,1 +1,1 @@
-#타입스크립트(Type Script)
+# 타입스크립트(Type Script)
