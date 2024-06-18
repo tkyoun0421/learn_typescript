@@ -4,6 +4,9 @@ export class BaseComponent {
         template.innerHTML = htmlString;
         this.element = template.content.firstElementChild;
     }
+    attach(component, position) {
+        component.attachTo(this.element, position);
+    }
     attachTo(parent, position = "beforeend") {
         parent.insertAdjacentElement(position, this.element);
     }
